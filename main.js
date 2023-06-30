@@ -16,7 +16,7 @@ const effect = (msg)=>{
   err.textContent = "";
   setTimeout(()=>{
     err.textContent = msg;
-  },10);
+  },50);
 }
 const stop = () => {
   // butt.disabled = true;
@@ -60,8 +60,4 @@ function guess(){
         }
     }   
 }
-
-
-
-
 
